@@ -1,0 +1,11 @@
+#python specific
+__pycache__/
+*.pyc
+*.pyo
+
+#virtual env
+venv/
+.env/
+
+#pygame logs
+*.log
