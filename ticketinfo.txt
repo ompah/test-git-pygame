@@ -80,21 +80,284 @@ Loop Lord Lars
 Sudo Susanne
 Ticket Tom
 Story Steve
-
+Linux Lina
+Net Nick
+Pull Paul
+Compose Cris
+Pipeline Peter
+Raspberry Rosie
+Logging Luna
 
 EVENTS
 Debug Thug
+Effect: 
+Flavor text:
+
 Code Cowboy
+Effect: 
+Flavor text:
+
 Bug Whisperer
+Effect: 
+Flavor text:
+
 Pixel Pusher
-Back end Bandit
+Effect: 
+Flavor text:
+
 Merge Master
+Effect: 
+Flavor text:
+
 Git Guru
+Effect: 
+Flavor text:
+
 Runtime Rebel
+Effect: 
+Flavor text:
+
 Spagetti Overlord
+Effect: 
+Flavor text:
+
 Logic Looter
+Effect: 
+Flavor text:
+
+System Overload
+Effect: All players must discard 2 cards.
+Flavor text: “Too many tabs open… It was only a matter of time.”
+
+Server Downtime
+Effect: Skip your next turn.
+Flavor text: “Server went down for maintenance… for the next 6 hours.”
+
+Patch Tuesday
+Effect: All players draw 1 card.
+Flavor text: “New update! 90% bug fixes, 10% new problems.”
+
+Firewall Blocked
+Effect: Prevent an opponent’s next move.
+Flavor text: “Access denied. Try again later.”
+
+Memory Leak
+Effect: The next round, players must discard one extra card.
+Flavor text: “Slow and steady… until everything crashes.”
+
+Virus Infection
+Effect: Opponent draws 2 extra cards.
+Flavor text: “No one ever clicked ‘Install’ on purpose.”
+
+Unresponsive UI
+Effect: Skip a turn and draw a useless card.
+Flavor text: “Clicking… clicking… nothing happens.”
+
+Stack Overflow
+Effect: Player must give one card to each opponent.
+Flavor text: “The stack has exceeded its limit… but so has your patience.”
+
+Bug Fix
+Effect: You can remove one of your opponent’s cards.
+Flavor text: “We’ve been working on this all week.”
+
+Hacker Attack
+Effect: Steal a card from any player.
+Flavor text: “You didn’t see me coming.”
+
+Software Update
+Effect: All players shuffle their cards.
+Flavor text: “Update complete. System rebooting… prepare for chaos.”
+
+DDoS Attack
+Effect: Block all moves for one round.
+Flavor text: “So many requests… so little time.”
+
+Outdated Documentation
+Effect: Shuffle your cards and draw a random one.
+Flavor text: “What’s the syntax again? I swear it worked last week.”
+
+Dependency Hell
+Effect: Discard 3 cards due to unexpected conflicts.
+Flavor text: “You thought it was simple. Then you tried to update the dependencies.”
+
+Phishing Scam
+Effect: Steal a card from any opponent and make them draw an extra card.
+Flavor text: “You thought you were safe… but that link was definitely not legit.”
+
+Cloud Sync Fail
+Effect: Discard your entire hand and redraw.
+Flavor text: “It says ‘syncing,’ but it’s not doing anything.”
+
+System Restore
+Effect: Return a card from your discard pile to your hand.
+Flavor text: “Restoring settings to default… and hoping it works.”
+
+DNS Failure
+Effect: Force an opponent to discard 2 cards at random.
+Flavor text: “Your request couldn’t be routed. Try again later.”
+
+All-Hands Meeting
+Effect: Everyone must discard 1 card.
+Flavor text: “Don’t worry, it’s just a 3-hour meeting about ‘synergy.’”
+
+Mandatory Training
+Effect: Skip your next turn while you “train.”
+Flavor text: “Today’s topic: ‘How to Avoid Being Fired 101.’”
+
+Quarterly Review
+Effect: Everyone must draw an additional card.
+Flavor text: “Time to evaluate your performance… and your cards.”
+
+Last-Minute Deadline
+Effect: Discard 2 cards and draw 1.
+Flavor text: “Guess who forgot to plan ahead?”
+
+Budget Cuts
+Effect: Discard 3 cards of your choice.
+Flavor text: “Turns out the coffee machine wasn’t in the budget.”
+
+Team Bonding Exercise
+Effect: All players must exchange 1 card with each other.
+Flavor text: “Get ready for trust falls… and awkward silence.”
+
+Mandatory Overtime
+Effect: Lose a turn and draw an extra card.
+Flavor text: “It’s time to stay late… and question your life choices.”
+
+PowerPoint Marathon
+Effect: Everyone must draw an additional card.
+Flavor text: “Slides on slides on slides. You’re going to need caffeine.”
+
+Department Restructure
+Effect: Swap hands with another player.
+Flavor text: “Oh, you’re reporting to who now?”
+
+Corporate Buzzword Bingo
+Effect: Draw 1 extra card.
+Flavor text: “Let’s circle back on this in the next synergy meeting.”
+
+Annual Performance Review
+Effect: Choose an opponent to lose 1 turn.
+Flavor text: “You did great… except for those two late projects and the email mix-up.”
+
+Sprint Planning
+Effect: Everyone must discard 1 card and draw 1.
+Flavor text: “Let’s ‘estimate’ this task in 3 hours and see where we’re at.”
+
+Daily Stand-Up
+Effect: Skip your next turn.
+Flavor text: “This will be quick… but it never is.”
+
+Story Point Inflation
+Effect: Double the cost of any action for the next round.
+Flavor text: “We can make this work… if we just give it 40 story points.”
+
+Unrealistic Deadline
+Effect: Skip your turn and discard 1 card.
+Flavor text: “Yes, we can finish this in a week. No, we can’t.”
+
+Scope Creep
+Effect: Add 2 cards to your hand.
+Flavor text: “Just one more feature… and one more…”
+
+Kanban Chaos
+Effect: Shuffle all players’ cards into one pile and redistribute them.
+Flavor text: “Your task is in the ‘done’ column… but is it really?”
+
+MVP Delusion
+Effect: Discard 3 cards of your choice.
+Flavor text: “This is the MVP. Trust me, it works fine in production.”
+
+Sprint Review
+Effect: Draw 2 cards and discard 1.
+Flavor text: “We did it! Now let’s review everything we didn’t finish.”
+
+Unclear Ticket Description
+Effect: Shuffle your cards.
+Flavor text: “What exactly does ‘make it better’ mean again?”
+
+Ticket Completed, But…
+Effect: Discard 1 card at random.
+Flavor text: “It’s done, but you’ll probably be fixing bugs on it next week.”
+
+You’re Not Doing It Right
+Effect: Skip your next turn.
+Flavor text: “The PO thinks they can do your job better. Surprise!”
+
+Daily Check-Ins
+Effect: Draw 1 extra card.
+Flavor text: “A quick check-in to see if you’re doing what they told you… again.”
+
+Synergy Meeting
+Effect: Discard 1 card at random.
+Flavor text: “Let’s ‘synergize’ and see if we can create value… whatever that means.”
+
+The ‘Quick’ Catch-Up
+Effect: Discard your highest card.
+Flavor text: “It’s supposed to be 10 minutes, but now it’s been 2 hours.”
+
+Open Door Policy
+Effect: Everyone must discard 1 card.
+Flavor text: “Come on in and have a chat about absolutely nothing.”
+
+Actionable Insights
+Effect: Discard 1 card and draw 3.
+Flavor text: “I’m not sure what that means, but we need to act on it immediately.”
+
+Key Takeaways
+Effect: Force another player to draw 1 extra card.
+Flavor text: “The real takeaway? There’s no real takeaway.”
+
+The Animation Overload
+Effect: Draw 1 extra card.
+Flavor text: “Every single slide transitions with a ‘cool’ fade effect.”
+
+Infinite Spreadsheet Tabs
+Effect: Shuffle your hand.
+Flavor text: “You’ve got so many tabs open, you’ve forgotten which one you’re even working on.”
+
+CC’d on Everything
+Effect: Force another player to discard 1 card.
+Flavor text: “Congratulations! You’re CC’d on every email in the company.”
+
+Reply-All Disaster
+Effect: Skip your next turn.
+Flavor text: “That one accidental ‘Reply All’ email is now in everyone’s inbox.”
+
+Meeting Invite Overload
+Effect: Draw 1 extra card.
+Flavor text: “You’ve been invited to 10 different meetings today… all at the same time.”
+
+The Missing Attachment
+Effect: Skip your next turn.
+Flavor text: “The email was sent, but the attachment? Not so much.”
+
+Endless Email Threads
+Effect: Draw 2 cards and discard 1.
+Flavor text: “It started with a quick question… now it’s 50 emails long.”
+
+Bureaucratic Approval
+Effect: Discard your highest card.
+Flavor text: “You’re waiting for that one person’s approval… and they’re on vacation.”
+
+ 
 
 
-Tickets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
