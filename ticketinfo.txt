@@ -55,4 +55,46 @@ event (play instant)
 work (play during work phase)
 team - these cards have a different backside from the other cards
 
+C A R D S
+
+Avatars/ or teams? cringe 
+Team Ctrl Alt Elite
+Team Hack Attackers
+Team Committment Issues
+Team Version Control Freaks
+Team Wi-Fighters
+Team Ping Kings
+
+DEVELOPERS
+Keyboard Karen
+Syntax Sam
+Merge Mary
+Variable Victor
+Bug Bengt
+Code Kent
+Frontend Fred
+Backend Bob
+Kernel Karl
+Crypto Cici
+Loop Lord Lars
+Sudo Susanne
+Ticket Tom
+Story Steve
+
+
+EVENTS
+Debug Thug
+Code Cowboy
+Bug Whisperer
+Pixel Pusher
+Back end Bandit
+Merge Master
+Git Guru
+Runtime Rebel
+Spagetti Overlord
+Logic Looter
+
+
+Tickets
+
 
