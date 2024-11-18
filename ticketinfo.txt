@@ -1,7 +1,18 @@
 Ticket Wars
 
-Abstract
+I N F O
+
+TITLE
+Ticket Wars: The Bug Strikes Back – “Every ticket is a battle, and the bugs are winning.”
+Backlog Burnout – “Endless tasks. Endless meetings. Can you survive?”
+Feature Freeze – “When all features freeze, but your deadlines never do.”
+Bug Me More – “Because why fix one bug when you can add five more?”
+Agile Anarchy – “The process is agile, but the outcome is pure chaos.”
+Kanban Carnage – “The board’s full, but it’s all just a pile of incomplete tasks.”
+
 2+ player card game. You play as an IT guy (or dept lead) in an international corporation. The one who has the most points wins the game!
+
+"game name" is a fast-paced, laugh-out-loud card game where players tackle the everyday absurdities of office life. From migrating databases to fixing email typos, you’ll juggle ridiculous tasks, dodge last-minute meetings, and pray your servers don’t crash. Stack up your story points, but beware—one wrong click and your productivity might just implode! Perfect for venting frustrations, embracing the chaos, and laughing at the grind. Can you survive the corporate jungle, or will you get stuck in the endless loop of “low priority” tasks?
 
 Gameplay elements
 casual, jokes, fast paced, random elements, board can change fast.
@@ -28,20 +39,17 @@ work value word
 multiple ticket systems
 time reporting
 
+R U L E S 
+
 Game Phases:
 phase setup
 For a 3 player game. Each player is given 3 team cards. These are the 3 people in your team that will solve tickets together. These people have perks and flaws that affect the gameplay. Each player places the team cards face up on the table in front of him/her.
-
-phase play - elements
-standup
-work phase
 
 Game Board
 Player hand
 Game card
 Turns
 Mechanics
-
 
 Artifacts
 nice box
@@ -122,6 +130,10 @@ Effect:
 Flavor text:
 
 Logic Looter
+Effect: 
+Flavor text:
+
+Scrumageddonj
 Effect: 
 Flavor text:
 
@@ -341,7 +353,188 @@ Bureaucratic Approval
 Effect: Discard your highest card.
 Flavor text: “You’re waiting for that one person’s approval… and they’re on vacation.”
 
+Unmute Yourself in Video Meeting
+Effect: 
+Flavor text: “You’ve been talking for 5 minutes, and no one’s heard a word you’ve said.”
  
+TICKETS
+Integrate Single Sign-On
+Story Points: 6
+Flavor text: “It was supposed to save time, but now everyone’s locked out of the system.”
+
+Refactor Legacy Code
+Story Points: 5
+Flavor text: “The code is like a haunted mansion—full of things you’re better off not knowing about.”
+
+Upgrade Server Infrastructure
+Story Points: 4
+Flavor text: “The servers are ‘modern,’ if by ‘modern’ you mean from 2008.”
+
+Create a New Dashboard
+Story Points: 3
+Flavor text: “You thought it’d be simple, but now it’s an endless sea of widgets and graphs.”
+
+Fix Broken Login Page
+Story Points: 2
+Flavor text: “Users can’t log in, but it might be working on your personal computer.”
+
+Add Multi-Language Support
+Story Points: 5
+Flavor text: “Everyone speaks English… except for that one client who doesn’t.”
+
+Write Unit Tests for Feature X
+Story Points: 4
+Flavor text: “Tests for tests? We’re just adding tests to keep the QA team happy.”
+
+Migrate Database to Cloud
+Story Points: 6
+Flavor text: “Everything’s in the cloud! Too bad the database isn’t… yet.”
+
+Optimize Query Performance
+Story Points: 3
+Flavor text: “The database runs fast, but only if you give it a good 5 minutes.”
+
+Implement Five-Factor Authentication
+Story Points: 4
+Flavor text: “Security’s important… until users start forgetting their second factors.”
+
+Fix Email Notification System
+Story Points: 2
+Flavor text: “Emails go out… sometimes. Other times, they disappear into the void.”
+
+Automate Deployment Pipeline
+Story Points: 5
+Flavor text: “The deployment should be ‘automated,’ but right now, it’s mostly ‘praying.’”
+
+Set Up Continuous Integration
+Story Points: 4
+Flavor text: “It’ll run smoothly… just after 14 hours of debugging Jenkins.”
+
+Update User Permissions
+Story Points: 3
+Flavor text: “Changing permissions is easy… unless you’ve got 50 different user groups.”
+
+Create Reporting Feature
+Story Points: 4
+Flavor text: “Reports are ‘simple,’ as long as you ignore the 3 weeks of requests for changes.”
+
+Fix Typos in Documentation
+Story Points: 1
+Flavor text: “It’s a single typo, but someone will email you about it for days.”
+
+Reboot the Server
+Story Points: 1
+Flavor text: “The server’s down again? Just restart it. That’s always the solution, right?”
+
+Reset User Password
+Story Points: 1
+Flavor text: “The password reset works, but now you’ve got to deal with the ‘I can’t remember my new password’ emails.”
+
+Clean Up Unused Files
+Story Points: 1
+Flavor text: “You’re deleting files no one uses, but you’re still not sure why they were there in the first place.”
+
+Update Software Dependencies
+Story Points: 2
+Flavor text: “A couple of package updates, but it might break everything.”
+
+Check Server Logs for Errors
+Story Points: 2
+Flavor text: “You’ll never find the exact error, but at least you’ll look busy.”
+
+Answer FAQ Email
+Story Points: 2
+Flavor text: “They’ve asked this 20 times, but hey, let’s send them another 5-paragraph response.”
+
+Test New Feature in Staging
+Story Points: 2
+Flavor text: “It works in staging… but who knows if it will when it hits production?”
+
+Add Comments to Code
+Story Points: 2
+Flavor text: “You added comments… but are they really helpful? Probably not.”
+
+Update Internal Wiki Page
+Story Points: 2
+Flavor text: “Updating the page no one reads, but hey, it’s ‘important.’”
+
+Rename Folder for ‘Clarity’
+Story Points: 1
+Flavor text: “The folder’s name made sense six months ago, but now it’s ‘Company_Stuff_v3.’”
+
+Check for System Updates
+Story Points: 1
+Flavor text: “It’s been forever since an update, and there’s a whole bunch now. Do you want to restart?”
+
+Fix Formatting in Excel Spreadsheet
+Story Points: 2
+Flavor text: “Aligning all 50 columns took longer than you thought, but hey, it’s neat now!”
+
+Update Email Distribution List
+Story Points: 2
+Flavor text: “Someone got added. Someone got removed. The list now makes no sense to anyone.”
+
+Create User Onboarding Checklist
+Story Points: 3
+Flavor text: “The checklist is longer than the actual onboarding process.”
+
+Rewrite Documentation for New Process
+Story Points: 4
+Flavor text: “The process changed… again. Time to rewrite everything and hope no one notices.”
+
+Migrate Data to New System
+Story Points: 5
+Flavor text: “The migration should take an hour. Except, you know, when it doesn’t.”
+
+Set Up New Development Environment
+Story Points: 5
+Flavor text: “Getting everything installed was a breeze. Now let’s see how long it takes to actually run.”
+
+Perform Full System Audit
+Story Points: 6
+Flavor text: “You thought audits were just paperwork, but turns out they’re 6 months of stress.”
+
+Fix the Legacy Database
+Story Points: 6
+Flavor text: “It worked fine in the 90s. Now, it just works… sometimes.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
