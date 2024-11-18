@@ -1,0 +1,58 @@
+Ticket Wars
+
+Abstract
+2+ player card game. You play as an IT guy (or dept lead) in an international corporation. The one who has the most points wins the game!
+
+Gameplay elements
+casual, jokes, fast paced, random elements, board can change fast.
+
+Story elements
+Recognizable things from corporate IT, with key issues to highlight: 
+do you have a ticket
+find responsible
+long lead times
+talk to someone else
+break down tickets 
+merge tickets
+change agile
+reorg
+performance evaluation
+meetings
+access denied
+team building (escape room)
+retrospect
+sprint planning
+big room planning
+work together
+work value word
+multiple ticket systems
+time reporting
+
+Game Phases:
+phase setup
+For a 3 player game. Each player is given 3 team cards. These are the 3 people in your team that will solve tickets together. These people have perks and flaws that affect the gameplay. Each player places the team cards face up on the table in front of him/her.
+
+phase play - elements
+standup
+work phase
+
+Game Board
+Player hand
+Game card
+Turns
+Mechanics
+
+
+Artifacts
+nice box
+dice - standard 6 sided 
+cheat cheat card - quick rules and game phases
+card types
+ticket - tickets have points
+story
+epic
+event (play instant)
+work (play during work phase)
+team - these cards have a different backside from the other cards
+
+
