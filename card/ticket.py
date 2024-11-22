@@ -1,7 +1,8 @@
+import os
+import yaml
 import pygame
-#from card import Card
-import random
 from enum import Enum
+import random
 
 # Initialize Pygame
 pygame.init()
@@ -14,38 +15,17 @@ pygame.display.set_caption("Card Game")
 # Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GRAY = (100, 100, 100)
 
 # Fonts
 font = pygame.font.Font(None, 16)
-
-#card name - the cards unique name 
-#card type - ticket, event, team 
-#card duration - how many rounds the card is active 1-6 
-#card description - detailing the card
 
 class CardType(Enum):
     TICKET = "Ticket"
     EVENT = "Event"
     TEAM = "Team"
 
-# Define a Pre-Defined Deck of Cards
-"""PREDEFINED_DECK = [
-    Card("time reporting", CardType.EVENT, 1, "you need to do this."),
-    Card("reorganization", CardType.EVENT, 6, "this is better."),
-    Card("access denied", CardType.EVENT, 1, "you need to make a ticket to access this."),
-    Card("sprint planning", CardType.EVENT, 1, "Quick and agile."),
-    Card("wrong board", CardType.EVENT, 1, "your ticekt is in the wrong board, make new"),
-    Card("performance evaluation", CardType.EVENT, 1, "you suck."),
-    Card("do you have a ticket?", CardType.EVENT, 1, "Lurks in the darkness."),
-    Card("more meetings!", CardType.EVENT, 3, "this meeting series is good."),
-    Card("work in silos", CardType.EVENT, 3, "this."),
-    Card("technical break", CardType.EVENT, 1, "this."),
-    Card("work in silos", CardType.EVENT, 3, "this."),
-    Card("work in silos", CardType.EVENT, 3, "this."),
-        
-]"""
-
-# Define the Card class
 class Card:
     def __init__(self, id, name, description, flavor_text, point_value, card_type, rarity, health, mana_cost, abilities):
         self.id = id
@@ -57,28 +37,28 @@ class Card:
         self.rarity = rarity
         self.health = health
         self.mana_cost = mana_cost
-        self.abilities = abilities  # Now a list of ability dictionaries
+        self.abilities = abilities
 
     def __repr__(self):
         return f"Card(id={self.id}, name={self.name}, type={self.card_type})"
 
-# Load YAML data from the file
-def load_cards(filename='carddata.yaml'):
+def load_cards(filename=None):
+    if filename is None:
+        filename = os.path.join(os.path.dirname(__file__), 'carddata.yaml')
+    if not os.path.exists(filename):
+        raise FileNotFoundError(f"'{filename}' not found.")
+    
     with open(filename, 'r') as f:
-        data = yaml.safe_load(f)  # Read the YAML file
-    cards = {}
-    
-    # Loop through each card in the YAML data and create Card objects
+        data = yaml.safe_load(f)
+
+    cards = []
     for card_data in data['cards']:
-        card = Card(**card_data)  # Use unpacking to pass data to the Card constructor
-        cards[card.id] = card
-    
+        card = Card(**card_data)
+        cards.append(card)
     return cards
 
-# Deck class to manage the predefined deck
 class Deck:
     def __init__(self):
-        #self.cards = cards  # List of Card objects
         self.cards = load_cards()
 
     def shuffle(self):
@@ -86,13 +66,18 @@ class Deck:
 
     def draw_card(self):
         if len(self.cards) > 0:
-            return self.cards.pop(0)  # Draw the top card
-        else:
-            return None  # Deck is empty
+            return self.cards.pop(0)
+        return None
 
 # Create a deck and shuffle it
 deck = Deck()
 deck.shuffle()
+
+for card in deck.cards:
+    print(f"Card: {card.name}")
+    for ability in card.abilities:
+        print(f" - {ability['name']}: {ability['effect']} (cost: {ability['cost']})")
+
 
 # Game Loop
 running = True
@@ -108,9 +93,10 @@ while running:
     # Draw player's hand
     y_offset = 50
     for card in player_hand:
-        card_text = font.render(str(card), True, BLACK)
+        card_text = font.render(str(card.name), True, GRAY)
+
         screen.blit(card_text, (10, y_offset))
-        y_offset += 30
+        y_offset += 20
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
