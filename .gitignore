@@ -9,3 +9,6 @@ venv/
 
 #pygame logs
 *.log
+
+#gcm
+git-credential-manager
