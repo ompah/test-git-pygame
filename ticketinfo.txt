@@ -41,27 +41,66 @@ time reporting
 
 R U L E S 
 
-Game Phases:
-phase setup
-For a 3 player game. Each player is given 3 team cards. These are the 3 people in your team that will solve tickets together. These people have perks and flaws that affect the gameplay. Each player places the team cards face up on the table in front of him/her.
+Game Mechanics
+    Description
+        Lots of tickets, events and team are located on the board.
+        tickets have each a value and thats the game points. 
+        the more tickets you solve, the more points. points are 1-6.
+        events and team have a 1-6 die on them, indicating its duration.
+        each turn, players decide initiative who plays first, 
+        then plays cards that either adds time(die count) to tickets, 
+        or removes time from tickets to solve them and get points. 
+        team members can sometimes help, but not always. 
+        when points by tickets solved are x that player wins. 
 
-Game Board
-Player hand
-Game card
-Turns
-Mechanics
+Game Phases:
+        phase setup
+            each player gets one avatar and places it on the game board
+            each player draws x cards
+            The oldest player starts
+        phase play
+            decide initiative
+            count down event dice and remove 1
+            Verify tickets with dice 1
+            Player turn (for each player)
+                draw x cards 
+                maximum 8 cards in hand
+                play up to x cards
+                discard up to x cards
+            Resolve any 
+
+Game objects 
+    Game Board
+        the game board is the table
+        play your avatar card on your side of the table
+        each player plays his cards on his side
+    Player hand
+    Game card
+        Card name 
+            the name is short and unique
+        Card types
+            avatar - avatar cards are player avatars (maybe wit powers)
+            event - and event is something with a duration 1-6 and stays on the board 
+            ticket - a ticket has a value 1-6 and stays on the board until solved
+            team - the team solves (or hinders) the tickets
+        Card duration 
+            During x count down 1 on all dice, and remove all dice with 1
+            duration is 0-6, where 0 is instantly resolved
+        Card description
+            this card does somthing 
+        Card flavor
+            this is flavor text
+    Turns
+
 
 Artifacts
-nice box
-dice - standard 6 sided 
-cheat cheat card - quick rules and game phases
-card types
+    nice box
+    dice - standard 6 sided - many
+    cheat cheat card - quick rules and game phases
 ticket - tickets have points
-story
-epic
-event (play instant)
 work (play during work phase)
 team - these cards have a different backside from the other cards
+
 
 C A R D S
 
