@@ -1,6 +1,7 @@
 import pygame
 import sys
 
+# test update to git
 # Initialize Pygame
 pygame.init()
 
