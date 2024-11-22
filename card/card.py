@@ -1,21 +1,44 @@
-#card name - the cards unique name 
-#card type - ticket, event, team 
-#card duration - how many rounds the card is active 
-#card description - detailing the card
-
-
-#card class
+import yaml
+"""
+# Define the Card class
 class Card:
-    def __init__(self, name, type, duration, description=""):
+    def __init__(self, id, name, description, flavor_text, point_value, card_type, rarity, health, mana_cost, abilities):
+        self.id = id
         self.name = name
-        self.type = type
-        self.duration = duration
         self.description = description
+        self.flavor_text = flavor_text
+        self.point_value = point_value
+        self.card_type = card_type
+        self.rarity = rarity
+        self.health = health
+        self.mana_cost = mana_cost
+        self.abilities = abilities  # Now a list of ability dictionaries
 
-    def __str__(self):
-        return f"{self.name} (Type: {self.type}, Duration: {self.duration}, Description: {self.description})"
+    def __repr__(self):
+        return f"Card(id={self.id}, name={self.name}, type={self.card_type})"
 
+# Load YAML data from the file
+def load_cards(filename='carddata.yaml'):
+    with open(filename, 'r') as f:
+        data = yaml.safe_load(f)  # Read the YAML file
+    cards = {}
+    
+    # Loop through each card in the YAML data and create Card objects
+    for card_data in data['cards']:
+        card = Card(**card_data)  # Use unpacking to pass data to the Card constructor
+        cards[card.id] = card
+    
+    return cards
 
+# Example of loading cards from the YAML file
+#cards = load_cards()
+
+# Example: Display abilities for each card
+#for card in cards.values():
+    print(f"Card: {card.name}")
+    for ability in card.abilities:
+        print(f" - {ability['name']}: {ability['effect']} (Mana cost: {ability['mana_cost']})")
+"""
 """ import pygame
 
 # Initialize Pygame

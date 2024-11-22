@@ -1,0 +1,44 @@
+cards:
+  - id: 1
+    name: "Card 1"
+    description: "This is the description for card 1."
+    flavor_text: "A powerful card with unmatched abilities."
+    point_value: 10
+    card_type: "Attack"
+    rarity: "Common"
+    health: 50
+    mana_cost: 5
+    abilities: 
+      - name: "Fireball"
+        effect: "damage"
+        cost: 3
+
+
+  
+  - id: 2
+    name: "Card 2"
+    description: "This is the description for card 2."
+    flavor_text: "A magical card with high strategic value."
+    point_value: 15
+    card_type: "Spell"
+    rarity: "Rare"
+    health: 0
+    mana_cost: 3
+    abilities: 
+      - name: "Fireball"
+        effect: "damage"
+        cost: 3
+
+  - id: 3
+    name: "Card 3"
+    description: "This is the description for card 3."
+    flavor_text: "The mystical card with untold power."
+    point_value: 20
+    card_type: "Creature"
+    rarity: "Epic"
+    health: 100
+    mana_cost: 8
+    abilities: 
+      - name: "Fireball"
+        effect: "damage"
+        cost: 3
