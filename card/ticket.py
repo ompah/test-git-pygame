@@ -75,9 +75,12 @@ deck.shuffle()
 
 for card in deck.cards:
     print(f"Card: {card.name}")
-    for ability in card.abilities:
-        print(f" - {ability['name']}: {ability['effect']} (cost: {ability['cost']})")
-
+    print(f"Descr: {card.description}")
+    if not card.abilities:
+        print(" - No abilities")
+    else:
+        for ability in card.abilities:
+            print(f" - {ability['name']}: {ability['effect']} (cost: {ability['cost']})")
 
 # Game Loop
 running = True
@@ -93,7 +96,9 @@ while running:
     # Draw player's hand
     y_offset = 50
     for card in player_hand:
-        card_text = font.render(str(card.name), True, GRAY)
+        text_to_render = [card.name, card.description]
+        joined_text = ", ".join(text_to_render)
+        card_text = font.render(joined_text, True, GRAY)
 
         screen.blit(card_text, (10, y_offset))
         y_offset += 20

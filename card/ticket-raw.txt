@@ -1,0 +1,399 @@
+Debug Thug
+Effect: effect123
+Flavor text: "text 123"
+
+Code Cowboy
+Effect: effect123
+Flavor text: "text 123"
+
+Bug Whisperer
+Effect: effect123
+Flavor text: "text 123"
+
+Pixel Pusher
+Effect: effect123
+Flavor text: "text 123"
+
+Merge Master
+Effect: effect123
+Flavor text: "text 123"
+
+Git Guru
+Effect: effect123
+Flavor text: "text 123"
+
+Runtime Rebel
+Effect: effect123
+Flavor text: "text 123"
+
+Spagetti Overlord
+Effect: effect123
+Flavor text: "text 123"
+
+Logic Looter
+Effect: effect123
+Flavor text: "text 123"
+
+Scrumageddonj
+Effect: effect123
+Flavor text: "text 123"
+
+System Overload
+Effect: All players must discard 2 cards.
+Flavor text: “Too many tabs open… It was only a matter of time.”
+
+Server Downtime
+Effect: Skip your next turn.
+Flavor text: “Server went down for maintenance… for the next 6 hours.”
+
+Patch Tuesday
+Effect: All players draw 1 card.
+Flavor text: “New update! 90% bug fixes, 10% new problems.”
+
+Firewall Blocked
+Effect: Prevent an opponent’s next move.
+Flavor text: “Access denied. Try again later.”
+
+Memory Leak
+Effect: The next round, players must discard one extra card.
+Flavor text: “Slow and steady… until everything crashes.”
+
+Virus Infection
+Effect: Opponent draws 2 extra cards.
+Flavor text: “No one ever clicked ‘Install’ on purpose.”
+
+Unresponsive UI
+Effect: Skip a turn and draw a useless card.
+Flavor text: “Clicking… clicking… nothing happens.”
+
+Stack Overflow
+Effect: Player must give one card to each opponent.
+Flavor text: “The stack has exceeded its limit… but so has your patience.”
+
+Bug Fix
+Effect: You can remove one of your opponent’s cards.
+Flavor text: “We’ve been working on this all week.”
+
+Hacker Attack
+Effect: Steal a card from any player.
+Flavor text: “You didn’t see me coming.”
+
+Software Update
+Effect: All players shuffle their cards.
+Flavor text: “Update complete. System rebooting… prepare for chaos.”
+
+DDoS Attack
+Effect: Block all moves for one round.
+Flavor text: “So many requests… so little time.”
+
+Outdated Documentation
+Effect: Shuffle your cards and draw a random one.
+Flavor text: “What’s the syntax again? I swear it worked last week.”
+
+Dependency Hell
+Effect: Discard 3 cards due to unexpected conflicts.
+Flavor text: “You thought it was simple. Then you tried to update the dependencies.”
+
+Phishing Scam
+Effect: Steal a card from any opponent and make them draw an extra card.
+Flavor text: “You thought you were safe… but that link was definitely not legit.”
+
+Cloud Sync Fail
+Effect: Discard your entire hand and redraw.
+Flavor text: “It says ‘syncing,’ but it’s not doing anything.”
+
+System Restore
+Effect: Return a card from your discard pile to your hand.
+Flavor text: “Restoring settings to default… and hoping it works.”
+
+DNS Failure
+Effect: Force an opponent to discard 2 cards at random.
+Flavor text: “Your request couldn’t be routed. Try again later.”
+
+All-Hands Meeting
+Effect: Everyone must discard 1 card.
+Flavor text: “Don’t worry, it’s just a 3-hour meeting about ‘synergy.’”
+
+Mandatory Training
+Effect: Skip your next turn while you “train.”
+Flavor text: “Today’s topic: ‘How to Avoid Being Fired 101.’”
+
+Quarterly Review
+Effect: Everyone must draw an additional card.
+Flavor text: “Time to evaluate your performance… and your cards.”
+
+Last-Minute Deadline
+Effect: Discard 2 cards and draw 1.
+Flavor text: “Guess who forgot to plan ahead?”
+
+Budget Cuts
+Effect: Discard 3 cards of your choice.
+Flavor text: “Turns out the coffee machine wasn’t in the budget.”
+
+Team Bonding Exercise
+Effect: All players must exchange 1 card with each other.
+Flavor text: “Get ready for trust falls… and awkward silence.”
+
+Mandatory Overtime
+Effect: Lose a turn and draw an extra card.
+Flavor text: “It’s time to stay late… and question your life choices.”
+
+PowerPoint Marathon
+Effect: Everyone must draw an additional card.
+Flavor text: “Slides on slides on slides. You’re going to need caffeine.”
+
+Department Restructure
+Effect: Swap hands with another player.
+Flavor text: “Oh, you’re reporting to who now?”
+
+Corporate Buzzword Bingo
+Effect: Draw 1 extra card.
+Flavor text: “Let’s circle back on this in the next synergy meeting.”
+
+Annual Performance Review
+Effect: Choose an opponent to lose 1 turn.
+Flavor text: “You did great… except for those two late projects and the email mix-up.”
+
+Sprint Planning
+Effect: Everyone must discard 1 card and draw 1.
+Flavor text: “Let’s ‘estimate’ this task in 3 hours and see where we’re at.”
+
+Daily Stand-Up
+Effect: Skip your next turn.
+Flavor text: “This will be quick… but it never is.”
+
+Story Point Inflation
+Effect: Double the cost of any action for the next round.
+Flavor text: “We can make this work… if we just give it 40 story points.”
+
+Unrealistic Deadline
+Effect: Skip your turn and discard 1 card.
+Flavor text: “Yes, we can finish this in a week. No, we can’t.”
+
+Scope Creep
+Effect: Add 2 cards to your hand.
+Flavor text: “Just one more feature… and one more…”
+
+Kanban Chaos
+Effect: Shuffle all players’ cards into one pile and redistribute them.
+Flavor text: “Your task is in the ‘done’ column… but is it really?”
+
+MVP Delusion
+Effect: Discard 3 cards of your choice.
+Flavor text: “This is the MVP. Trust me, it works fine in production.”
+
+Sprint Review
+Effect: Draw 2 cards and discard 1.
+Flavor text: “We did it! Now let’s review everything we didn’t finish.”
+
+Unclear Ticket Description
+Effect: Shuffle your cards.
+Flavor text: “What exactly does ‘make it better’ mean again?”
+
+Ticket Completed, But…
+Effect: Discard 1 card at random.
+Flavor text: “It’s done, but you’ll probably be fixing bugs on it next week.”
+
+You’re Not Doing It Right
+Effect: Skip your next turn.
+Flavor text: “The PO thinks they can do your job better. Surprise!”
+
+Daily Check-Ins
+Effect: Draw 1 extra card.
+Flavor text: “A quick check-in to see if you’re doing what they told you… again.”
+
+Synergy Meeting
+Effect: Discard 1 card at random.
+Flavor text: “Let’s ‘synergize’ and see if we can create value… whatever that means.”
+
+The ‘Quick’ Catch-Up
+Effect: Discard your highest card.
+Flavor text: “It’s supposed to be 10 minutes, but now it’s been 2 hours.”
+
+Open Door Policy
+Effect: Everyone must discard 1 card.
+Flavor text: “Come on in and have a chat about absolutely nothing.”
+
+Actionable Insights
+Effect: Discard 1 card and draw 3.
+Flavor text: “I’m not sure what that means, but we need to act on it immediately.”
+
+Key Takeaways
+Effect: Force another player to draw 1 extra card.
+Flavor text: “The real takeaway? There’s no real takeaway.”
+
+The Animation Overload
+Effect: Draw 1 extra card.
+Flavor text: “Every single slide transitions with a ‘cool’ fade effect.”
+
+Infinite Spreadsheet Tabs
+Effect: Shuffle your hand.
+Flavor text: “You’ve got so many tabs open, you’ve forgotten which one you’re even working on.”
+
+CC’d on Everything
+Effect: Force another player to discard 1 card.
+Flavor text: “Congratulations! You’re CC’d on every email in the company.”
+
+Reply-All Disaster
+Effect: Skip your next turn.
+Flavor text: “That one accidental ‘Reply All’ email is now in everyone’s inbox.”
+
+Meeting Invite Overload
+Effect: Draw 1 extra card.
+Flavor text: “You’ve been invited to 10 different meetings today… all at the same time.”
+
+The Missing Attachment
+Effect: Skip your next turn.
+Flavor text: “The email was sent, but the attachment? Not so much.”
+
+Endless Email Threads
+Effect: Draw 2 cards and discard 1.
+Flavor text: “It started with a quick question… now it’s 50 emails long.”
+
+Bureaucratic Approval
+Effect: Discard your highest card.
+Flavor text: “You’re waiting for that one person’s approval… and they’re on vacation.”
+
+Unmute Yourself in Video Meeting
+Effect: 
+Flavor text: “You’ve been talking for 5 minutes, and no one’s heard a word you’ve said.”
+ 
+Integrate Single Sign-On
+Story Points: 6
+Flavor text: “It was supposed to save time, but now everyone’s locked out of the system.”
+
+Refactor Legacy Code
+Story Points: 5
+Flavor text: “The code is like a haunted mansion—full of things you’re better off not knowing about.”
+
+Upgrade Server Infrastructure
+Story Points: 4
+Flavor text: “The servers are ‘modern,’ if by ‘modern’ you mean from 2008.”
+
+Create a New Dashboard
+Story Points: 3
+Flavor text: “You thought it’d be simple, but now it’s an endless sea of widgets and graphs.”
+
+Fix Broken Login Page
+Story Points: 2
+Flavor text: “Users can’t log in, but it might be working on your personal computer.”
+
+Add Multi-Language Support
+Story Points: 5
+Flavor text: “Everyone speaks English… except for that one client who doesn’t.”
+
+Write Unit Tests for Feature X
+Story Points: 4
+Flavor text: “Tests for tests? We’re just adding tests to keep the QA team happy.”
+
+Migrate Database to Cloud
+Story Points: 6
+Flavor text: “Everything’s in the cloud! Too bad the database isn’t… yet.”
+
+Optimize Query Performance
+Story Points: 3
+Flavor text: “The database runs fast, but only if you give it a good 5 minutes.”
+
+Implement Five-Factor Authentication
+Story Points: 4
+Flavor text: “Security’s important… until users start forgetting their second factors.”
+
+Fix Email Notification System
+Story Points: 2
+Flavor text: “Emails go out… sometimes. Other times, they disappear into the void.”
+
+Automate Deployment Pipeline
+Story Points: 5
+Flavor text: “The deployment should be ‘automated,’ but right now, it’s mostly ‘praying.’”
+
+Set Up Continuous Integration
+Story Points: 4
+Flavor text: “It’ll run smoothly… just after 14 hours of debugging Jenkins.”
+
+Update User Permissions
+Story Points: 3
+Flavor text: “Changing permissions is easy… unless you’ve got 50 different user groups.”
+
+Create Reporting Feature
+Story Points: 4
+Flavor text: “Reports are ‘simple,’ as long as you ignore the 3 weeks of requests for changes.”
+
+Fix Typos in Documentation
+Story Points: 1
+Flavor text: “It’s a single typo, but someone will email you about it for days.”
+
+Reboot the Server
+Story Points: 1
+Flavor text: “The server’s down again? Just restart it. That’s always the solution, right?”
+
+Reset User Password
+Story Points: 1
+Flavor text: “The password reset works, but now you’ve got to deal with the ‘I can’t remember my new password’ emails.”
+
+Clean Up Unused Files
+Story Points: 1
+Flavor text: “You’re deleting files no one uses, but you’re still not sure why they were there in the first place.”
+
+Update Software Dependencies
+Story Points: 2
+Flavor text: “A couple of package updates, but it might break everything.”
+
+Check Server Logs for Errors
+Story Points: 2
+Flavor text: “You’ll never find the exact error, but at least you’ll look busy.”
+
+Answer FAQ Email
+Story Points: 2
+Flavor text: “They’ve asked this 20 times, but hey, let’s send them another 5-paragraph response.”
+
+Test New Feature in Staging
+Story Points: 2
+Flavor text: “It works in staging… but who knows if it will when it hits production?”
+
+Add Comments to Code
+Story Points: 2
+Flavor text: “You added comments… but are they really helpful? Probably not.”
+
+Update Internal Wiki Page
+Story Points: 2
+Flavor text: “Updating the page no one reads, but hey, it’s ‘important.’”
+
+Rename Folder for ‘Clarity’
+Story Points: 1
+Flavor text: “The folder’s name made sense six months ago, but now it’s ‘Company_Stuff_v3.’”
+
+Check for System Updates
+Story Points: 1
+Flavor text: “It’s been forever since an update, and there’s a whole bunch now. Do you want to restart?”
+
+Fix Formatting in Excel Spreadsheet
+Story Points: 2
+Flavor text: “Aligning all 50 columns took longer than you thought, but hey, it’s neat now!”
+
+Update Email Distribution List
+Story Points: 2
+Flavor text: “Someone got added. Someone got removed. The list now makes no sense to anyone.”
+
+Create User Onboarding Checklist
+Story Points: 3
+Flavor text: “The checklist is longer than the actual onboarding process.”
+
+Rewrite Documentation for New Process
+Story Points: 4
+Flavor text: “The process changed… again. Time to rewrite everything and hope no one notices.”
+
+Migrate Data to New System
+Story Points: 5
+Flavor text: “The migration should take an hour. Except, you know, when it doesn’t.”
+
+Set Up New Development Environment
+Story Points: 5
+Flavor text: “Getting everything installed was a breeze. Now let’s see how long it takes to actually run.”
+
+Perform Full System Audit
+Story Points: 6
+Flavor text: “You thought audits were just paperwork, but turns out they’re 6 months of stress.”
+
+Fix the Legacy Database
+Story Points: 6
+Flavor text: “It worked fine in the 90s. Now, it just works… sometimes.”

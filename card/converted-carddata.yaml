@@ -1,0 +1,622 @@
+cards:
+- name: Debug Thug
+  id: 1
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Code Cowboy
+  id: 2
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Bug Whisperer
+  id: 3
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Pixel Pusher
+  id: 4
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Merge Master
+  id: 5
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Git Guru
+  id: 6
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Runtime Rebel
+  id: 7
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Spagetti Overlord
+  id: 8
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Logic Looter
+  id: 9
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: Scrumageddonj
+  id: 10
+  point_value: 1
+  card_type: default type
+  effect: effect123
+  flavor_text: text 123
+- name: System Overload
+  id: 11
+  point_value: 1
+  card_type: default type
+  effect: All players must discard 2 cards.
+  flavor_text: Too many tabs open... It was only a matter of time.
+- name: Server Downtime
+  id: 12
+  point_value: 1
+  card_type: default type
+  effect: Skip your next turn.
+  flavor_text: Server went down for maintenance... for the next 6 hours.
+- name: Patch Tuesday
+  id: 13
+  point_value: 1
+  card_type: default type
+  effect: All players draw 1 card.
+  flavor_text: New update! 90% bug fixes, 10% new problems.
+- name: Firewall Blocked
+  id: 14
+  point_value: 1
+  card_type: default type
+  effect: Prevent an opponent's next move.
+  flavor_text: Access denied. Try again later.
+- name: Memory Leak
+  id: 15
+  point_value: 1
+  card_type: default type
+  effect: The next round, players must discard one extra card.
+  flavor_text: Slow and steady... until everything crashes.
+- name: Virus Infection
+  id: 16
+  point_value: 1
+  card_type: default type
+  effect: Opponent draws 2 extra cards.
+  flavor_text: No one ever clicked 'Install' on purpose.
+- name: Unresponsive UI
+  id: 17
+  point_value: 1
+  card_type: default type
+  effect: Skip a turn and draw a useless card.
+  flavor_text: Clicking... clicking... nothing happens.
+- name: Stack Overflow
+  id: 18
+  point_value: 1
+  card_type: default type
+  effect: Player must give one card to each opponent.
+  flavor_text: The stack has exceeded its limit... but so has your patience.
+- name: Bug Fix
+  id: 19
+  point_value: 1
+  card_type: default type
+  effect: You can remove one of your opponent's cards.
+  flavor_text: We've been working on this all week.
+- name: Hacker Attack
+  id: 20
+  point_value: 1
+  card_type: default type
+  effect: Steal a card from any player.
+  flavor_text: You didn't see me coming.
+- name: Software Update
+  id: 21
+  point_value: 1
+  card_type: default type
+  effect: All players shuffle their cards.
+  flavor_text: Update complete. System rebooting... prepare for chaos.
+- name: DDoS Attack
+  id: 22
+  point_value: 1
+  card_type: default type
+  effect: Block all moves for one round.
+  flavor_text: So many requests... so little time.
+- name: Outdated Documentation
+  id: 23
+  point_value: 1
+  card_type: default type
+  effect: Shuffle your cards and draw a random one.
+  flavor_text: What's the syntax again? I swear it worked last week.
+- name: Dependency Hell
+  id: 24
+  point_value: 1
+  card_type: default type
+  effect: Discard 3 cards due to unexpected conflicts.
+  flavor_text: You thought it was simple. Then you tried to update the dependencies.
+- name: Phishing Scam
+  id: 25
+  point_value: 1
+  card_type: default type
+  effect: Steal a card from any opponent and make them draw an extra card.
+  flavor_text: You thought you were safe... but that link was definitely not legit.
+- name: Cloud Sync Fail
+  id: 26
+  point_value: 1
+  card_type: default type
+  effect: Discard your entire hand and redraw.
+  flavor_text: It says 'syncing,' but it's not doing anything.
+- name: System Restore
+  id: 27
+  point_value: 1
+  card_type: default type
+  effect: Return a card from your discard pile to your hand.
+  flavor_text: Restoring settings to default... and hoping it works.
+- name: DNS Failure
+  id: 28
+  point_value: 1
+  card_type: default type
+  effect: Force an opponent to discard 2 cards at random.
+  flavor_text: Your request couldn't be routed. Try again later.
+- name: All-Hands Meeting
+  id: 29
+  point_value: 1
+  card_type: default type
+  effect: Everyone must discard 1 card.
+  flavor_text: Don't worry, it's just a 3-hour meeting about 'synergy.'
+- name: Mandatory Training
+  id: 30
+  point_value: 1
+  card_type: default type
+  effect: Skip your next turn while you train.
+  flavor_text: 'Today''s topic: ''How to Avoid Being Fired 101.'''
+- name: Quarterly Review
+  id: 31
+  point_value: 1
+  card_type: default type
+  effect: Everyone must draw an additional card.
+  flavor_text: Time to evaluate your performance... and your cards.
+- name: Last-Minute Deadline
+  id: 32
+  point_value: 1
+  card_type: default type
+  effect: Discard 2 cards and draw 1.
+  flavor_text: Guess who forgot to plan ahead?
+- name: Budget Cuts
+  id: 33
+  point_value: 1
+  card_type: default type
+  effect: Discard 3 cards of your choice.
+  flavor_text: Turns out the coffee machine wasn't in the budget.
+- name: Team Bonding Exercise
+  id: 34
+  point_value: 1
+  card_type: default type
+  effect: All players must exchange 1 card with each other.
+  flavor_text: Get ready for trust falls... and awkward silence.
+- name: Mandatory Overtime
+  id: 35
+  point_value: 1
+  card_type: default type
+  effect: Lose a turn and draw an extra card.
+  flavor_text: It's time to stay late... and question your life choices.
+- name: PowerPoint Marathon
+  id: 36
+  point_value: 1
+  card_type: default type
+  effect: Everyone must draw an additional card.
+  flavor_text: Slides on slides on slides. You're going to need caffeine.
+- name: Department Restructure
+  id: 37
+  point_value: 1
+  card_type: default type
+  effect: Swap hands with another player.
+  flavor_text: Oh, you're reporting to who now?
+- name: Corporate Buzzword Bingo
+  id: 38
+  point_value: 1
+  card_type: default type
+  effect: Draw 1 extra card.
+  flavor_text: Let's circle back on this in the next synergy meeting.
+- name: Annual Performance Review
+  id: 39
+  point_value: 1
+  card_type: default type
+  effect: Choose an opponent to lose 1 turn.
+  flavor_text: You did great... except for those two late projects and the email mix-up.
+- name: Sprint Planning
+  id: 40
+  point_value: 1
+  card_type: default type
+  effect: Everyone must discard 1 card and draw 1.
+  flavor_text: Let's 'estimate' this task in 3 hours and see where we're at.
+- name: Daily Stand-Up
+  id: 41
+  point_value: 1
+  card_type: default type
+  effect: Skip your next turn.
+  flavor_text: This will be quick... but it never is.
+- name: Story Point Inflation
+  id: 42
+  point_value: 1
+  card_type: default type
+  effect: Double the cost of any action for the next round.
+  flavor_text: We can make this work... if we just give it 40 story points.
+- name: Unrealistic Deadline
+  id: 43
+  point_value: 1
+  card_type: default type
+  effect: Skip your turn and discard 1 card.
+  flavor_text: Yes, we can finish this in a week. No, we can't.
+- name: Scope Creep
+  id: 44
+  point_value: 1
+  card_type: default type
+  effect: Add 2 cards to your hand.
+  flavor_text: Just one more feature... and one more...
+- name: Kanban Chaos
+  id: 45
+  point_value: 1
+  card_type: default type
+  effect: Shuffle all players' cards into one pile and redistribute them.
+  flavor_text: Your task is in the 'done' column... but is it really?
+- name: MVP Delusion
+  id: 46
+  point_value: 1
+  card_type: default type
+  effect: Discard 3 cards of your choice.
+  flavor_text: This is the MVP. Trust me, it works fine in production.
+- name: Sprint Review
+  id: 47
+  point_value: 1
+  card_type: default type
+  effect: Draw 2 cards and discard 1.
+  flavor_text: We did it! Now let's review everything we didn't finish.
+- name: Unclear Ticket Description
+  id: 48
+  point_value: 1
+  card_type: default type
+  effect: Shuffle your cards.
+  flavor_text: What exactly does 'make it better' mean again?
+- name: Ticket Completed, But...
+  id: 49
+  point_value: 1
+  card_type: default type
+  effect: Discard 1 card at random.
+  flavor_text: It's done, but you'll probably be fixing bugs on it next week.
+- name: You're Not Doing It Right
+  id: 50
+  point_value: 1
+  card_type: default type
+  effect: Skip your next turn.
+  flavor_text: The PO thinks they can do your job better. Surprise!
+- name: Daily Check-Ins
+  id: 51
+  point_value: 1
+  card_type: default type
+  effect: Draw 1 extra card.
+  flavor_text: A quick check-in to see if you're doing what they told you... again.
+- name: Synergy Meeting
+  id: 52
+  point_value: 1
+  card_type: default type
+  effect: Discard 1 card at random.
+  flavor_text: Let's 'synergize' and see if we can create value... whatever that means.
+- name: The 'Quick' Catch-Up
+  id: 53
+  point_value: 1
+  card_type: default type
+  effect: Discard your highest card.
+  flavor_text: It's supposed to be 10 minutes, but now it's been 2 hours.
+- name: Open Door Policy
+  id: 54
+  point_value: 1
+  card_type: default type
+  effect: Everyone must discard 1 card.
+  flavor_text: Come on in and have a chat about absolutely nothing.
+- name: Actionable Insights
+  id: 55
+  point_value: 1
+  card_type: default type
+  effect: Discard 1 card and draw 3.
+  flavor_text: I'm not sure what that means, but we need to act on it immediately.
+- name: Key Takeaways
+  id: 56
+  point_value: 1
+  card_type: default type
+  effect: Force another player to draw 1 extra card.
+  flavor_text: The real takeaway? There's no real takeaway.
+- name: The Animation Overload
+  id: 57
+  point_value: 1
+  card_type: default type
+  effect: Draw 1 extra card.
+  flavor_text: Every single slide transitions with a 'cool' fade effect.
+- name: Infinite Spreadsheet Tabs
+  id: 58
+  point_value: 1
+  card_type: default type
+  effect: Shuffle your hand.
+  flavor_text: You've got so many tabs open, you've forgotten which one you're even
+    working on.
+- name: CC'd on Everything
+  id: 59
+  point_value: 1
+  card_type: default type
+  effect: Force another player to discard 1 card.
+  flavor_text: Congratulations! You're CC'd on every email in the company.
+- name: Reply-All Disaster
+  id: 60
+  point_value: 1
+  card_type: default type
+  effect: Skip your next turn.
+  flavor_text: That one accidental 'Reply All' email is now in everyone's inbox.
+- name: Meeting Invite Overload
+  id: 61
+  point_value: 1
+  card_type: default type
+  effect: Draw 1 extra card.
+  flavor_text: You've been invited to 10 different meetings today... all at the same
+    time.
+- name: The Missing Attachment
+  id: 62
+  point_value: 1
+  card_type: default type
+  effect: Skip your next turn.
+  flavor_text: The email was sent, but the attachment? Not so much.
+- name: Endless Email Threads
+  id: 63
+  point_value: 1
+  card_type: default type
+  effect: Draw 2 cards and discard 1.
+  flavor_text: It started with a quick question... now it's 50 emails long.
+- name: Bureaucratic Approval
+  id: 64
+  point_value: 1
+  card_type: default type
+  effect: Discard your highest card.
+  flavor_text: You're waiting for that one person's approval... and they're on vacation.
+- name: Unmute Yourself in Video Meeting
+  id: 65
+  point_value: 1
+  card_type: default type
+- name: 'Effect:'
+  id: 66
+  point_value: 1
+  card_type: default type
+  flavor_text: You've been talking for 5 minutes, and no one's heard a word you've
+    said.
+- name: Integrate Single Sign-On
+  id: 67
+  point_value: 1
+  card_type: default type
+  story_points: '6'
+  flavor_text: It was supposed to save time, but now everyone's locked out of the
+    system.
+- name: Refactor Legacy Code
+  id: 68
+  point_value: 1
+  card_type: default type
+  story_points: '5'
+  flavor_text: "The code is like a haunted mansion\u2014full of things you're better\
+    \ off not knowing about."
+- name: Upgrade Server Infrastructure
+  id: 69
+  point_value: 1
+  card_type: default type
+  story_points: '4'
+  flavor_text: The servers are 'modern,' if by 'modern' you mean from 2008.
+- name: Create a New Dashboard
+  id: 70
+  point_value: 1
+  card_type: default type
+  story_points: '3'
+  flavor_text: You thought it'd be simple, but now it's an endless sea of widgets
+    and graphs.
+- name: Fix Broken Login Page
+  id: 71
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: Users can't log in, but it might be working on your personal computer.
+- name: Add Multi-Language Support
+  id: 72
+  point_value: 1
+  card_type: default type
+  story_points: '5'
+  flavor_text: Everyone speaks English... except for that one client who doesn't.
+- name: Write Unit Tests for Feature X
+  id: 73
+  point_value: 1
+  card_type: default type
+  story_points: '4'
+  flavor_text: Tests for tests? We're just adding tests to keep the QA team happy.
+- name: Migrate Database to Cloud
+  id: 74
+  point_value: 1
+  card_type: default type
+  story_points: '6'
+  flavor_text: Everything's in the cloud! Too bad the database isn't... yet.
+- name: Optimize Query Performance
+  id: 75
+  point_value: 1
+  card_type: default type
+  story_points: '3'
+  flavor_text: The database runs fast, but only if you give it a good 5 minutes.
+- name: Implement Five-Factor Authentication
+  id: 76
+  point_value: 1
+  card_type: default type
+  story_points: '4'
+  flavor_text: Security's important... until users start forgetting their second factors.
+- name: Fix Email Notification System
+  id: 77
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: Emails go out... sometimes. Other times, they disappear into the void.
+- name: Automate Deployment Pipeline
+  id: 78
+  point_value: 1
+  card_type: default type
+  story_points: '5'
+  flavor_text: The deployment should be 'automated,' but right now, it's mostly 'praying.'
+- name: Set Up Continuous Integration
+  id: 79
+  point_value: 1
+  card_type: default type
+  story_points: '4'
+  flavor_text: It'll run smoothly... just after 14 hours of debugging Jenkins.
+- name: Update User Permissions
+  id: 80
+  point_value: 1
+  card_type: default type
+  story_points: '3'
+  flavor_text: Changing permissions is easy... unless you've got 50 different user
+    groups.
+- name: Create Reporting Feature
+  id: 81
+  point_value: 1
+  card_type: default type
+  story_points: '4'
+  flavor_text: Reports are 'simple,' as long as you ignore the 3 weeks of requests
+    for changes.
+- name: Fix Typos in Documentation
+  id: 82
+  point_value: 1
+  card_type: default type
+  story_points: '1'
+  flavor_text: It's a single typo, but someone will email you about it for days.
+- name: Reboot the Server
+  id: 83
+  point_value: 1
+  card_type: default type
+  story_points: '1'
+  flavor_text: The server's down again? Just restart it. That's always the solution,
+    right?
+- name: Reset User Password
+  id: 84
+  point_value: 1
+  card_type: default type
+  story_points: '1'
+  flavor_text: The password reset works, but now you've got to deal with the 'I can't
+    remember my new password' emails.
+- name: Clean Up Unused Files
+  id: 85
+  point_value: 1
+  card_type: default type
+  story_points: '1'
+  flavor_text: You're deleting files no one uses, but you're still not sure why they
+    were there in the first place.
+- name: Update Software Dependencies
+  id: 86
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: A couple of package updates, but it might break everything.
+- name: Check Server Logs for Errors
+  id: 87
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: You'll never find the exact error, but at least you'll look busy.
+- name: Answer FAQ Email
+  id: 88
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: They've asked this 20 times, but hey, let's send them another 5-paragraph
+    response.
+- name: Test New Feature in Staging
+  id: 89
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: It works in staging... but who knows if it will when it hits production?
+- name: Add Comments to Code
+  id: 90
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: You added comments... but are they really helpful? Probably not.
+- name: Update Internal Wiki Page
+  id: 91
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: Updating the page no one reads, but hey, it's 'important.'
+- name: Rename Folder for 'Clarity'
+  id: 92
+  point_value: 1
+  card_type: default type
+  story_points: '1'
+  flavor_text: The folder's name made sense six months ago, but now it's 'Company_Stuff_v3.'
+- name: Check for System Updates
+  id: 93
+  point_value: 1
+  card_type: default type
+  story_points: '1'
+  flavor_text: It's been forever since an update, and there's a whole bunch now. Do
+    you want to restart?
+- name: Fix Formatting in Excel Spreadsheet
+  id: 94
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: Aligning all 50 columns took longer than you thought, but hey, it's
+    neat now!
+- name: Update Email Distribution List
+  id: 95
+  point_value: 1
+  card_type: default type
+  story_points: '2'
+  flavor_text: Someone got added. Someone got removed. The list now makes no sense
+    to anyone.
+- name: Create User Onboarding Checklist
+  id: 96
+  point_value: 1
+  card_type: default type
+  story_points: '3'
+  flavor_text: The checklist is longer than the actual onboarding process.
+- name: Rewrite Documentation for New Process
+  id: 97
+  point_value: 1
+  card_type: default type
+  story_points: '4'
+  flavor_text: The process changed... again. Time to rewrite everything and hope no
+    one notices.
+- name: Migrate Data to New System
+  id: 98
+  point_value: 1
+  card_type: default type
+  story_points: '5'
+  flavor_text: The migration should take an hour. Except, you know, when it doesn't.
+- name: Set Up New Development Environment
+  id: 99
+  point_value: 1
+  card_type: default type
+  story_points: '5'
+  flavor_text: Getting everything installed was a breeze. Now let's see how long it
+    takes to actually run.
+- name: Perform Full System Audit
+  id: 100
+  point_value: 1
+  card_type: default type
+  story_points: '6'
+  flavor_text: You thought audits were just paperwork, but turns out they're 6 months
+    of stress.
+- name: Fix the Legacy Database
+  id: 101
+  point_value: 1
+  card_type: default type
+  story_points: '6'
+  flavor_text: It worked fine in the 90s. Now, it just works... sometimes.
