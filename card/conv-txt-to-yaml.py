@@ -32,7 +32,8 @@ def text_to_yaml(file_path):
             
                 # Add additional attributes with default or dynamic values
                 current_card["id"] = len(cards) + 1  # Example: ID based on current number of cards
-                current_card["point_value"] = 1  # Default point value
+                current_card["effect"] = "effexct default"  # Example: ID based on current number of cards
+                current_card["story_points"] = 1  # Default point value
                 current_card["card_type"] = "default type"  # Default card type
 
 
@@ -69,3 +70,5 @@ if __name__ == "__main__":
         file.write(yaml_content)
 
     print(f"YAML content written to {output_file}")
+
+
